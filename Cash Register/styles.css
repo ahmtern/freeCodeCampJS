@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --light: #D8E9A8;
+    --dark: #191A19;
+  }
+  
+  body {
+    background-color: var(--dark);
+    color: var(--light);
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+  
+  
+  h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  #change-due {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0 20px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  .user-input {
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+  }
+  
+  .price-screen {
+    border: 10px solid #4E9F3D;
+    background-color: var(--dark);
+    height: 50px;
+    width: 200px;
+    margin-left: -40px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #price {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .connector {
+    margin-left: -20px;
+    background-color: #4E9F3D;
+    height: 30px;
+    width: 40px;
+  }
+  
+  .top-register {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 35px 35px 0 0;
+    padding-top: 20px;
+    background-color: #4E9F3D;
+    height: 250px;
+    width: 325px;
+  }
+  
+  .btns-container {
+    width: 25%;
+  }
+  
+  .btn {
+    border-radius: 10%;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: var(--dark);
+  }
+  
+  .check-btn-styles {
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    color: var(--light);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1E5128;
+    background-image: linear-gradient(#1E5128, #1e5127);
+    border-color: #1E5128;
+    border-width: 3px;
+  }
+  
+  .cash-drawer-display {
+    font-size: 1.1rem;
+    background-color: white;
+    width: 55%;
+    height: 95%;
+    color: var(--dark);
+    padding: 10px;
+  }
+  
+  .bottom-register {
+    background-color: #4E9F3D;
+    height: 50px;
+    width: 325px;
+    margin-top: 10px;
+  }
+  
+  .circle {
+    margin: 15px auto;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: var(--dark);
+  }
